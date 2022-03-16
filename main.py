@@ -28,7 +28,6 @@ from utils import feature_selection, transfer_learning
 from utils.feature_selection import *
 from utils.transfer_learning import *
 from AAPSO import *
-from local_search import *
 
 import warnings
 warnings.filterwarnings('ignore')
