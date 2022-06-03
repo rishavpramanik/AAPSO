@@ -1,1 +1,0 @@
-## NORMAL CXR-IMAGES
