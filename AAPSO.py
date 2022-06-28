@@ -162,7 +162,7 @@ def AAPSO(num_agents, max_iter, train_data, train_label, obj_function=compute_fi
             Leader_agent = globalBestParticle.copy()
             Leader_fitness = globalBestFitness.copy()
 
-        convergence_curve['fitness'][iter_no] = np.mean(fitness)
+        convergence_curve['fitness'][iter_no] = Leader_fitness
 
     # compute final accuracy
     Leader_agent, Leader_accuracy = sort_agents(Leader_agent, compute_accuracy, data)
