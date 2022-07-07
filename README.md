@@ -1,13 +1,18 @@
 # AAPSO
-# An Adaptive and Altruistic PSO-based Deep Feature Selection Method for Pneumonia Detection from Chest X-Rays
-**
+# Deep Feature Selection for Pneumonia Detection
+"An Adaptive and Altruistic PSO-based Deep Feature Selection Method for Pneumonia Detection from Chest X-Rays" published in Applied Soft Computing (XX, XX), Elsevier
+```
+@article{
+}
+```
 
-
-## Requirements
+# Requirements
 To install the required dependencies run the following in command prompt:
-`pip install -r requirements.txt`
+`pip3 install -r requirements.txt`
+# Dataset Links
+1. [Paul Monney's Pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
-## Running the codes:
+#Instructions to run the code:
 Required directory structure:
 
 (Note: ``train`` and ``val`` contains subfolders representing classes in the dataset.)
@@ -22,19 +27,20 @@ Required directory structure:
 +-- main.py
 
 ```
-Then, run the code using the command prompt as follows:
+1. Download the repository and install the required packages:
+```
+pip3 install -r requirements.txt
+```
+2. The main file is sufficient to run the experiments.
+Then, run the code using linux terminal as follows:
 
-`python main.py --data_directory "data"`
+```
+python3 main.py --data_directory "data"
+```
 
 Available arguments:
-- `--epochs`: Number of epochs of training. Default = 20
+- `--epochs`: Number of epochs of training. Default = 10
 - `--learning_rate`: Learning Rate. Default = 0.0001
 - `--batch_size`: Batch Size. Default = 32
 
-## Citation:
-If this article helps in your research in any way, please cite us using:
-
-```
-@article{
-}
-```
+3. Please don't forget to edit the above parameters before you start
