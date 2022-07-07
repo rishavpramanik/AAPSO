@@ -15,7 +15,8 @@ To install the required dependencies run the following in command prompt:
 3. [Microarray Datasets: In this repository](https://github.com/rishavpramanik/AAPSO/tree/main/data/MicroarrayCsv)
 4. [COVID-19 prediction: In this repository](https://github.com/rishavpramanik/AAPSO/tree/main/data/COVIDcsv)
 
-#Instructions to run the code:
+# Instructions to run the code:
+
 Required directory structure:
 
 (Note: ``train`` and ``val`` contains subfolders representing classes in the dataset.)
