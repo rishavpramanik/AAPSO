@@ -35,9 +35,10 @@ warnings.filterwarnings('ignore')
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_directory', type=str, default = './', help='Directory where the image data is stored')
-parser.add_argument('--epochs', type=int, default = 20, help='Number of Epochs of training')
+parser.add_argument('--epochs', type=int, default = 10, help='Number of Epochs of training')
 parser.add_argument('--batch_size', type=int, default = 4, help='Batch size for training')
 parser.add_argument('--learning_rate', type=float, default = 0.0001, help='Learning Rate')
+parser.add_argument('--stepLR', type=int, default=5, help='Step size for Step LR scheduler')
 args = parser.parse_args()
 
 DIR_PATH = args.data_directory  # enter directory path for dataset
@@ -103,7 +104,7 @@ for phase in phases:
     print(f'Length of {phase} loader = {len(data_loader[phase])}')
 
 # model, criterion, optimizer
-model = torchvision.models.densenet201(pretrained=True)
+model = torchvision.models.resnet50(pretrained=True)
 model = model.to(device)
 
 model = ConvNet(model, num_classes)
@@ -111,7 +112,7 @@ model = model.to(device)
 
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
-exp_lr_scheduler = lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
+exp_lr_scheduler = lr_scheduler.StepLR(optimizer, step_size=args.stepLR, gamma=0.1)
 
 # training CNN model
 start = time.time()
