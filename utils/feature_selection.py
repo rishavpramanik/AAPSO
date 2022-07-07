@@ -121,7 +121,7 @@ def compute_accuracy(agent, train_X, test_X, train_Y, test_Y):
     if(cols.shape[0] == 0):
         return 0
 
-    clf = SVM() # classifier for wrapper-based method
+    clf = KNN() # classifier for wrapper-based method
 
     train_data = train_X[:, cols]
     train_label = train_Y
