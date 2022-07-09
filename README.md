@@ -5,10 +5,6 @@
 @article{
 }
 ```
-
-# Requirements
-To install the required dependencies run the following in command prompt:
-`pip3 install -r requirements.txt`
 # Dataset Links
 1. [Paul Monney's Pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 2. [UCI datasets: In this repository](https://github.com/rishavpramanik/AAPSO/tree/main/data/UCIcsv)
