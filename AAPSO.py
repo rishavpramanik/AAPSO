@@ -43,7 +43,7 @@ def alturism(good_arr,bad_arr,good_vel,bad_vel,trans_func_shape='s'):
 
 def AAPSO(num_agents, max_iter, train_data, train_label, obj_function=compute_fitness, trans_func_shape='s', save_conv_graph=False):
     
-    # Particle Swarm Optimizer
+    # Adaptive and Altruistic Particle Swarm Optimizer
     ############################### Parameters ####################################
     #                                                                             #
     #   num_agents: number of particles                                           #
