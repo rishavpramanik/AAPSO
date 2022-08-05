@@ -1,6 +1,6 @@
 # AAPSO
 # Deep Feature Selection for Pneumonia Detection
-"An Adaptive and Altruistic PSO-based Deep Feature Selection Method for Pneumonia Detection from Chest X-Rays" under minor review in Applied Soft Computing, Elsevier
+"An Adaptive and Altruistic PSO-based Deep Feature Selection Method for Pneumonia Detection from Chest X-Rays" accepted for publication in Applied Soft Computing, Elsevier
 ```
 @article{
 }
