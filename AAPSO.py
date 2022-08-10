@@ -7,15 +7,6 @@ from sklearn.model_selection import train_test_split
 from sklearn import datasets
 from utils.feature_selection import *
 
-def normalize(arr, t_min=0, t_max=1):
-    norm_arr = []
-    diff = t_max - t_min
-    diff_arr = max(arr) - min(arr)
-    for i in arr:
-        temp = (((i - min(arr))*diff)/diff_arr) + t_min
-        norm_arr.append(temp)
-    return norm_arr
-
 def alturism(good_arr,bad_arr,good_vel,bad_vel,trans_func_shape='s'):
     trans_function = get_trans_function(trans_func_shape)
     for i in range(len(good_vel)):
@@ -44,6 +35,7 @@ def alturism(good_arr,bad_arr,good_vel,bad_vel,trans_func_shape='s'):
 def AAPSO(num_agents, max_iter, train_data, train_label, obj_function=compute_fitness, trans_func_shape='s', save_conv_graph=False):
     
     # Adaptive and Altruistic Particle Swarm Optimizer
+    
     ############################### Parameters ####################################
     #                                                                             #
     #   num_agents: number of particles                                           #
@@ -56,7 +48,7 @@ def AAPSO(num_agents, max_iter, train_data, train_label, obj_function=compute_fi
     #                                                                             #
     ###############################################################################
     
-    short_name = 'PSO'
+    short_name = 'AAPSO'
     agent_name = 'Particle'
     train_data, train_label = np.array(train_data), np.array(train_label)
     num_features = train_data.shape[1]
