@@ -3,6 +3,7 @@
 "An adaptive and altruistic PSO-based deep feature selection method for Pneumonia detection from Chest X-rays" accepted for publication in Applied Soft Computing, Elsevier
 
 Access the journal article: [Click Here](https://www.sciencedirect.com/science/article/pii/S1568494622005737)
+
 Preprint: [Abstract](https://arxiv.org/abs/2208.03558) & [PDF](https://arxiv.org/pdf/2208.03558)
 ```
 @@article{pramanik2022adaptive,
