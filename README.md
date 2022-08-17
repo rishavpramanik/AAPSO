@@ -1,10 +1,10 @@
 # AAPSO [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/an-adaptive-and-altruistic-pso-based-deep/classification-on-chest-x-ray-images)](https://paperswithcode.com/sota/classification-on-chest-x-ray-images?p=an-adaptive-and-altruistic-pso-based-deep)
 # Deep Feature Selection for Pneumonia Detection
-"An adaptive and altruistic PSO-based deep feature selection method for Pneumonia detection from Chest X-rays" accepted for publication in Applied Soft Computing, Elsevier
+"An adaptive and altruistic PSO-based deep feature selection method for Pneumonia detection from Chest X-rays" published in Applied Soft Computing, Elsevier
 
 Access the journal article: [Click Here](https://www.sciencedirect.com/science/article/pii/S1568494622005737)
 
-Preprint: [Abstract](https://arxiv.org/abs/2208.03558) & [PDF](https://arxiv.org/pdf/2208.03558)
+Preprint (Arxiv): [Abstract](https://arxiv.org/abs/2208.03558) & [PDF](https://arxiv.org/pdf/2208.03558)
 ```
 @article{pramanik2022adaptive,
   title={An adaptive and altruistic PSO-based deep feature selection method for Pneumonia detection from Chest X-rays},
