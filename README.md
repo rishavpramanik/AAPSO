@@ -6,7 +6,7 @@ Access the journal article: [Click Here](https://www.sciencedirect.com/science/a
 
 Preprint: [Abstract](https://arxiv.org/abs/2208.03558) & [PDF](https://arxiv.org/pdf/2208.03558)
 ```
-@@article{pramanik2022adaptive,
+@article{pramanik2022adaptive,
   title={An adaptive and altruistic PSO-based deep feature selection method for Pneumonia detection from Chest X-rays},
   author={Pramanik, Rishav and Sarkar, Sourodip and Sarkar, Ram},
   journal={Applied Soft Computing},
