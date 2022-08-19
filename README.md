@@ -10,8 +10,10 @@ Preprint (Arxiv): [Abstract](https://arxiv.org/abs/2208.03558) & [PDF](https://a
   title={An adaptive and altruistic PSO-based deep feature selection method for Pneumonia detection from Chest X-rays},
   author={Pramanik, Rishav and Sarkar, Sourodip and Sarkar, Ram},
   journal={Applied Soft Computing},
+  volume = {128},
   pages={109464},
   year={2022},
+  issn = {1568-4946},
   doi={10.1016/j.asoc.2022.109464},
   url={https://www.sciencedirect.com/science/article/pii/S1568494622005737},
   publisher={Elsevier}
