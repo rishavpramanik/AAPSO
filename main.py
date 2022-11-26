@@ -36,7 +36,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_directory', type=str, default = './', help='Directory where the image data is stored')
 parser.add_argument('--epochs', type=int, default = 10, help='Number of Epochs of training')
-parser.add_argument('--batch_size', type=int, default = 4, help='Batch size for training')
+parser.add_argument('--batch_size', type=int, default = 32, help='Batch size for training')
 parser.add_argument('--learning_rate', type=float, default = 0.0001, help='Learning Rate')
 parser.add_argument('--stepLR', type=int, default=5, help='Step size for Step LR scheduler')
 args = parser.parse_args()
