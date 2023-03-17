@@ -137,6 +137,6 @@ X, y = get_features(features, true_labels)
 # Applying FS
 fs_soln = AAPSO(num_agents=30, max_iter=20, train_data=X, train_label=y)
 
-# validate AbSCA feature selection
+# validate the FS process
 agent = fs_soln.best_agent.copy()
 validate_FS(X, y, agent)
